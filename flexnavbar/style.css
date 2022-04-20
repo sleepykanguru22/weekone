@@ -1,0 +1,33 @@
+body {
+  font-family: "Roboto", sans-serif;
+}
+.nav {
+  display: flex;
+  margin: auto;
+  padding: 0;
+  border: 1px solid;
+}
+.nav-title {
+  padding-right: 50%;
+  padding-left: 5%;
+}
+.nav-links {
+  list-style-type: none;
+  display: flex;
+  align-items: flex-end;
+  gap: 20px;
+}
+a {
+  text-decoration: none;
+}
+li {
+  text-align: center;
+}
+.active {
+  font-weight: bold;
+}
+.btn {
+  background-color: rgb(124, 230, 230);
+  box-shadow: 2px 2px;
+  border: 2px solid;
+}
