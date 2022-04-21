@@ -1,0 +1,79 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-family: "M PLUS Rounded 1c", sans-serif;
+}
+
+.nav-container {
+  background-color: darkslateblue;
+  padding: 30px;
+}
+.nav-items {
+  display: flex;
+  background-color: darkslateblue;
+  list-style-type: none;
+  justify-content: space-evenly;
+  margin: 0px 250px;
+  color: whitesmoke;
+}
+
+.nav-links {
+  color: whitesmoke;
+  text-decoration: none;
+}
+.sign-out-btn {
+  background-color: rgba(0, 255, 255, 0.845);
+  color: whitesmoke;
+  padding: 5px;
+  gap: 10px;
+}
+ul {
+  list-style-type: none;
+}
+h1,
+h2 {
+  background-color: lightblue;
+}
+.content-containter {
+  display: flex;
+  margin: 20px 250px;
+}
+.col-1 {
+  flex: 2;
+}
+.col-2 {
+  flex: 1;
+  margin-left: 20px;
+}
+
+.name-tag,
+.edu {
+  margin-bottom: 20px;
+  border: 2px solid rgb(96, 147, 163);
+}
+.border {
+  border: 2px solid rgb(96, 147, 163);
+}
+.name-row,
+.edu-row,
+.connent-request-row,
+.connections-row {
+  margin-left: 20px;
+  padding-bottom: 20px;
+  line-height: 1.5;
+}
+.connection-request {
+  margin-bottom: 20px;
+  vertical-align: top;
+}
+
+.view {
+  padding: 20px;
+}
+
+.profile-card-header {
+  background-color: rgb(19, 96, 122);
+  color: rgb(19, 96, 122);
+  padding: 50px;
+}
