@@ -8,7 +8,7 @@ body {
   border: 1px solid;
 }
 .nav-title {
-  padding-right: 50%;
+  flex: 2;
   padding-left: 5%;
 }
 .nav-links {
@@ -16,6 +16,7 @@ body {
   display: flex;
   align-items: center;
   gap: 20px;
+  flex: 1;
 }
 a {
   text-decoration: none;
