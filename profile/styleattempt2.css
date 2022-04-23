@@ -1,0 +1,143 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-family: "M PLUS Rounded 1c", sans-serif;
+}
+
+/* * {
+  padding: 0;
+  margin: 0;
+}
+body {
+  font-family: "Roboto", sans-serif;
+} */
+
+/* nav-bar */
+.nav {
+  display: flex;
+  padding: 20px;
+  margin-bottom: 20px;
+  border: 1px solid;
+  justify-content: space-between;
+}
+.nav-title {
+  padding-left: 20%;
+}
+.nav-links {
+  list-style-type: none;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  width: 40%;
+}
+.nav-links a {
+  text-decoration: none;
+}
+.nav-links li {
+  text-align: center;
+}
+.active {
+  font-weight: bold;
+}
+.btn {
+  background-color: #17a2b8;
+  box-shadow: 2px 2px;
+  border: 2px solid;
+}
+
+/* columns */
+.col-1 {
+  flex: 2;
+}
+.col-2 {
+  flex: 1;
+  margin-left: 20px;
+  /* margin-top: 0; */
+}
+
+/* card css */
+.flex-containter {
+  margin: 0% 20%;
+  display: flex;
+  /* justify-content: space-between; */
+  /* align-items: center; */
+  vertical-align: top;
+}
+
+.user-card {
+  /* width: 60%; */
+  background-color: #fff;
+  border: 2px solid #999;
+  margin-bottom: 20px;
+  border-radius: 5px;
+  font-size: 1.2rem;
+  overflow: hidden;
+}
+
+.card-header {
+  background-color: #17a2b8;
+  height: 130px;
+  margin-bottom: 50px;
+}
+.header {
+  color: #fff;
+  background-color: rgb(60, 67, 73);
+  font-size: 20px;
+  padding: 10px 0px;
+  text-indent: 10px;
+}
+
+.card-body {
+  padding: 20px;
+  line-height: 2;
+}
+
+/* .card-body h1,
+.card-body h2,
+.card-body h3,
+.card-body p {
+  margin: 20px 0px;
+} */
+
+.card-footer {
+  border-top: 2px solid #999;
+  display: flex;
+  align-items: center;
+  padding: 20px;
+}
+
+.avatar {
+  border-radius: 50%;
+  background-color: #fff;
+  height: 150px;
+  padding: 5px;
+  margin-top: 20px;
+  margin-left: 20px;
+}
+
+.icon-s {
+  height: 20px;
+}
+a {
+  color: #3a81e6;
+}
+ul {
+  list-style-type: none;
+}
+
+.border {
+  /* width: 60%; */
+  background-color: #fff;
+  border: 2px solid #999;
+  margin-bottom: 20px;
+  border-radius: 5px;
+  /* vertical-align: top; */
+  /* font-size: 1.2rem; */
+}
+.border-top {
+  border-top: 2px solid #999;
+}
+/* .connection-request ul {
+  display: flex;
+} */

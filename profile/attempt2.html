@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Profile 2</title>
+    <link rel="stylesheet" href="styleattempt2.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Fredoka+One&family=M+PLUS+Rounded+1c&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <nav class="nav">
+      <h1 class="nav-title">Profile</h1>
+      <ul class="nav-links">
+        <li><a href="#">Home</a></li>
+        <li><a href="#" class="active">My Profile</a></li>
+        <li><a href="#">Find Connections</a></li>
+        <li><button class="btn">Sign Out</button></li>
+      </ul>
+    </nav>
+
+    <div class="flex-containter">
+      <div class="col-1">
+        <!-- profile card -->
+        <div class="flex-container">
+          <div class="user-card">
+            <div class="card-header">
+              <img
+                src="./img/icons/user-circle.png"
+                alt="user icon"
+                class="avatar"
+              />
+            </div>
+            <div class="card-body">
+              <h1>Jane Doe</h1>
+              <h3>
+                <img
+                  src="./img/icons/map-marker.png"
+                  alt="location icon"
+                  class="icon-s"
+                />
+                Seattle
+              </h3>
+              <p>
+                Developer | Engineer | Problem Solver <br />
+                Master of shadows and the Internet!
+              </p>
+              <p>
+                <a href="#">
+                  <img
+                    src="./img/icons/gear.png"
+                    alt="gear icon"
+                    class="icon-s"
+                  />
+                  edit profile</a
+                >
+              </p>
+            </div>
+          </div>
+        </div>
+        <!-- edu card -->
+        <div class="edu border">
+          <h1 class="header">Education</h1>
+          <div class="card-body">
+            <p>Coding Dojo - Fullstack Bootcamp</p>
+            <p class="date">Dec 2019 - Mar 2020</p>
+            <p>Triple black belt in Python, MERN, and C#</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-2">
+        <div class="connection-request border">
+          <h2 class="header">Connection Request</h2>
+          <div class="card-body">
+            <ul>
+              <li>
+                <img src="./img/images/todd-s.jpg" alt="todd" class="icon-s" />
+                Todd E
+                <button>
+                  <img
+                    src="./img/icons/accept-circle.png"
+                    alt="accept"
+                    class="icon-s"
+                  />
+                </button>
+                <button>
+                  <img
+                    src="./img/icons/close-circle.png"
+                    alt="close"
+                    class="icon-s"
+                  />
+                </button>
+              </li>
+              <br />
+              <li>
+                <img src="./img/images/phil-s.jpg" alt="phil" class="icon-s" />
+                Phil K
+                <button>
+                  <img
+                    src="./img/icons/accept-circle.png"
+                    alt="accept"
+                    class="icon-s"
+                  />
+                </button>
+                <button>
+                  <img
+                    src="./img/icons/close-circle.png"
+                    alt="close"
+                    class="icon-s"
+                  />
+                </button>
+              </li>
+            </ul>
+            <!-- <ul>
+              <li></li>
+              <li></li>
+            </ul> -->
+          </div>
+        </div>
+        <div class="border">
+          <h2 class="header">Your connections</h2>
+          <div class="connections-row card-body">
+            <ul>
+              <li>
+                <img src="./img/images/adrien-s.jpg" alt="" class="icon-s" />
+                Adrien D
+              </li>
+              <li>
+                <img src="./img/images/anne-s.jpg" alt="" class="icon-s" /> Anne
+                J
+              </li>
+              <li>
+                <img src="./img/images/alayne-s.jpg" alt="" class="icon-s" />
+                Alayne T
+              </li>
+              <li>
+                <img src="./img/images/arry-s.jpg" alt="" class="icon-s" /> Arry
+                Y
+              </li>
+            </ul>
+          </div>
+          <p class="border-top view card-body">
+            <a href="#">view more</a>
+          </p>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
